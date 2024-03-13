@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Icon titile -->
+  <link rel="icon" href="img/Logo/stock-photo-cartoon-emoji-hand-holding-microphone-and-showing-victory-gesture-isolated-over-purple-background-2175571409.jpg">
+  <!-- CSS Style -->
+  <title>Form</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Form Pemesanan Tiket Konser Musik</h1>
+    <form action="#">
+      <div class="form-group">
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap Anda">
+      </div>
+      <div class="form-group">
+        <label for="email">Alamat Email:</label>
+        <input type="email" id="email" name="email" placeholder="Masukkan alamat email Anda">
+      </div>
+      <div class="form-group">
+        <label for="no_telepon">Nomor Telepon:</label>
+        <input type="number" id="no_telepon" name="no_telepon" placeholder="Masukkan nomor telepon Anda">
+      </div>
+      <div class="form-group">
+        <label for="jumlah_tiket">Jumlah Tiket:</label>
+        <input type="number" id="jumlah_tiket" name="jumlah_tiket" placeholder="Masukkan jumlah tiket yang ingin dibeli">
+      </div>
+      <div class="form-group">
+        <label for="metode_pembayaran">Metode Pembayaran:</label>
+        <select id="metode_pembayaran" name="metode_pembayaran">
+          <option value="transfer_bank">Transfer Bank</option>
+          <option value="kartu_kredit">Kartu Kredit</option>
+          <option value="e-wallet">E-Wallet</option>
+        </select>
+      </div>
+      <button type="submit">Pesan Tiket</button>
+    </form>
+  </div>
+</body>
+</html>
